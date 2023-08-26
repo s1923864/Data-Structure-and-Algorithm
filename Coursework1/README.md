@@ -1,2 +1,2 @@
 # Coursework2
-[Link to PDF](CW2_specification.pdf)
+[Link to PDF](IADS_coursework1.pdf)
