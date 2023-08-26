@@ -1,0 +1,7 @@
+The search only takes O(1) to get all lines of each key word. The reason is that this method advancedSearch search a word in a already built-in dictionary "MetaIndex.txt" and this dictionary
+is an one-to-one dictionary.Hence,the total runtime is dependent on the next method we use, which is O(mn).Each time find the sentence contains keys need to compare the the hit of all 
+keys to  find the the hit which is on all minRequired keys.suppose, each key has n hits in average and there are m minRequired keys in total,so the complixity is O(mn).
+Its search time is quick, but it requires a large memory storage when we need to 
+read many books. And each time the method advancedSearch  searches the words, it needs to read from an already built-in file "index.txt" . This means if the built-in
+index file is very large, it also take a long time to read.Hence, this method is not very suitable to read a very large input.Furthermore,the efficiency will be very low, if
+we always want to search the words from different books,because we need to build index file each time.
