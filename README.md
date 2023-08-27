@@ -24,5 +24,5 @@ Throughout, different specific algorithms and algorithmic strategies (such as di
 Clone this repository and compile the code as per the instructions.
 
 ```bash
-git clone https://github.com/s1923864/Computer-Communications-and-Networks.git
-cd Computer-Communications-and-Networks
+git clone https://github.com/s1923864/Data-Structure-and-Algorithm.git
+cd Data-Structure-and-Algorithm
